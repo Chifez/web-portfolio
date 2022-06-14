@@ -3,7 +3,7 @@ import Navlink from './navlink'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='navbar'>
        <div>
            <h2> <span>&lt;</span>EM./<span>&gt;</span> </h2>
         </div> 
