@@ -19,7 +19,7 @@ const Contact = () => {
                         <label htmlFor="name">Message</label>
                         <textarea></textarea>
                     </div>
-                    <button>Send</button>
+                    <button><span>&lt;</span> Send <span>/&gt;</span></button>
                 </form>
       </div>
   )

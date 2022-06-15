@@ -4,7 +4,7 @@ const HomeBody = () => {
   return (
     <div className='body'>
        
-            <div>
+            <div className='body-logo'>
                 <div><img src="" alt="" /> <p>twitter</p></div>
                 <div><img src="" alt="" /> <p>linkedIn</p></div>
                 <div><img src="" alt="" /> <p>github</p></div>
@@ -12,14 +12,14 @@ const HomeBody = () => {
             <div className='body-img'>
                 <img src="" alt="" />
             </div>
-            <div>
+            <div className='body-content'>
                 <h2>
                     web developer
                 </h2>
                 <p>
                     i am emmanuel,a web developer from lagos,Nigeria with keen interest in interactive web applications 
                 </p>
-                <button><a href="/#"> view my work </a></button>
+                <button><a href="/#"><span>&lt;</span> view my work <span>/&gt;</span></a></button>
             </div>
     </div>
   )

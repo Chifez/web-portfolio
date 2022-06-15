@@ -1,3 +1,8 @@
+/* @font-face {
+  font-family: mont_black;
+  src: url(src/Montserrat/Montserrat-Black.ttf);
+} */
+
 *{
   padding:0;
   margin:0;
@@ -10,10 +15,11 @@
  background-image: linear-gradient(to bottom right,#414141,#000000);
  color:white;
  overflow-x: hidden;
+ font-family:monospace;
 }
 
 .App .navbar{
-  /* position: sticky; */
+  position: fixed;
   top:0;
   display: flex;
   padding: 1rem 2rem;
@@ -21,6 +27,7 @@
   align-items: center;
   width:100vw;
   margin-bottom: 5px;
+  background-color: lightslategray;
 }
 
 .App nav{
@@ -29,15 +36,31 @@
   align-items: center;
 }
 
-.App .navlink{
- padding: 0 1rem;
+.navlink{
+ padding: 0 1.5rem;
  text-transform:capitalize;
+ 
+}
+
+.navlink a{
+  font-family: monospace;
+  font-size: 1rem;
+ color: white;
+ text-decoration: none;
+}
+.navlink span{
+  opacity: 0;
+  transition: .3s ease-in-out;
+}
+
+.navlink:hover span,
+.navlink:active{
+  opacity:1;
 }
 
 .App .home{
-  /* height: 100vh; */
   width:100%;
-  padding-top:10vh;
-  border:2px solid blue;
+  margin-top: 10vh;
+  /* border:2px solid blue; */
 }
 
