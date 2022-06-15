@@ -4,11 +4,11 @@ const HomeBody = () => {
   return (
     <div className='body'>
        
-            <div className='body-logo'>
+            {/* <div className='body-logo'>
                 <div><img src="" alt="" /> <p>twitter</p></div>
                 <div><img src="" alt="" /> <p>linkedIn</p></div>
                 <div><img src="" alt="" /> <p>github</p></div>
-            </div>
+            </div> */}
             <div className='body-img'>
                 <img src="" alt="" />
             </div>

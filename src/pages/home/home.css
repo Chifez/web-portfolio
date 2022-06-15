@@ -1,34 +1,22 @@
 .body{
   display:grid;
   grid-auto-flow: column;
-  column-gap: 0.5rem;
   justify-content: center;
   align-content: center;
   padding: 1rem;
   font-family: monospace;
 
 }
-.body-logo{
-  position: sticky;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.body-logo div{
-  padding: 1rem 0;
-}
 
 .body-img{
     width:40vw;
     height: 90vh;
     background-color: lightslategray;
+    margin: 0 5rem;
 }
 
 .body-content{
- /* border: 2px solid red; */
-
- 
+ /* border: 2px solid red; */ 
 }
 
 .body-content h2{
@@ -60,7 +48,6 @@
 }
 
 .body-content button:hover{
-/* background-color: gray; */
 background-position: -100%;
 }
 
@@ -68,11 +55,19 @@ background-position: -100%;
   opacity:1;
 }
 
+.contacts{
+  position: relative;
+  display: grid;
+  grid-auto-flow:column;
+}
+
 .contact{
     display: flex;
     flex-direction: column;
-    margin:2rem;
+    margin:2rem 5rem;
+    width:100%;
 }
+
 .contact h2{
   text-transform: capitalize;
   font-size: 2rem;
@@ -101,6 +96,7 @@ background-position: -100%;
   margin-top: 15px;
   background: none;
   outline: none;
+  color:whitesmoke;
 }
 
 textarea{
@@ -114,6 +110,7 @@ textarea{
   background: none;
   outline: none;
   caret-color: grey;
+  color:whitesmoke;
 }
 .contact button{
   padding:10px 50px;
@@ -129,17 +126,28 @@ textarea{
   color:white;
 }
 
-.contact button span{
-}
 
 .contact button span{
 opacity:0;
-
 }
 
 .contact button:hover{
 background-position: 100%;
 }
+
 .contact button:hover span{
 opacity:1;
+}
+
+.contacts .contact-logo{
+  position: absolute;
+  bottom: 10rem;
+  left:60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-logo div{
+ margin:1rem;
 }
