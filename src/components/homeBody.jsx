@@ -1,4 +1,5 @@
 import React from 'react'
+import Typewriter from 'typewriter-effect'
 
 const HomeBody = () => {
   return (
@@ -17,7 +18,15 @@ const HomeBody = () => {
                     web developer
                 </h2>
                 <p>
-                    i am emmanuel,a web developer from lagos,Nigeria with keen interest in interactive web applications 
+                    <Typewriter onInit={(typewriter)=>{
+                        typewriter.typeString('i am emmanuel,')
+                        .pauseFor(1000)
+                        .typeString(' a web developer from lagos,Nigeria with keen interest in interactive web applications')
+                        .changeDelay(50)
+                        .start();
+                    }}/>
+                    
+                    {/* a web developer from lagos,Nigeria with keen interest in interactive web applications  */}
                 </p>
                 <button><a href="/#"><span>&lt;</span> view my work <span>/&gt;</span></a></button>
             </div>
