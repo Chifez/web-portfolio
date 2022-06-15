@@ -1,4 +1,5 @@
 import React from 'react'
+import { images } from './images'
 import Typewriter from 'typewriter-effect'
 
 const HomeBody = () => {
@@ -11,22 +12,20 @@ const HomeBody = () => {
                 <div><img src="" alt="" /> <p>github</p></div>
             </div> */}
             <div className='body-img'>
-                <img src="" alt="" />
+                <img src={images.main} alt="" />
             </div>
             <div className='body-content'>
                 <h2>
-                    web developer
-                </h2>
-                <p>
-                    <Typewriter onInit={(typewriter)=>{
-                        typewriter.typeString('i am emmanuel,')
+                <Typewriter className="body-title"onInit={(typewriter)=>{
+                        typewriter.typeString('FRONTEND WEB DEVELOPER')
                         .pauseFor(1000)
-                        .typeString(' a web developer from lagos,Nigeria with keen interest in interactive web applications')
+                        .typeString('')
                         .changeDelay(50)
                         .start();
-                    }}/>
-                    
-                    {/* a web developer from lagos,Nigeria with keen interest in interactive web applications  */}
+                    }} />
+                </h2>
+                <p>
+                     i am emmanuel, a web developer from lagos,Nigeria with keen interest in interactive web applications
                 </p>
                 <button><a href="/#"><span>&lt;</span> view my work <span>/&gt;</span></a></button>
             </div>

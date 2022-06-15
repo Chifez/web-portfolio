@@ -1,4 +1,5 @@
 import React from 'react'
+import { icons } from './images'
 
 const Contact = () => {
   return (
@@ -23,10 +24,16 @@ const Contact = () => {
                     <button><span>&lt;</span> Send <span>/&gt;</span></button>
                 </form>
       </div>
-                <div className='contact-logo'>
-                <div><img src="" alt="" /> <p>twitter</p></div>
-                <div><img src="" alt="" /> <p>linkedIn</p></div>
-                <div><img src="" alt="" /> <p>github</p></div>
+             <div className='contact-logo'>
+                <div><img src={icons.twitter} alt="" />
+                {/* <p>twitter</p> */}
+                </div>
+                <div><img src={icons.linkedin} alt="" />
+                {/* <p>linkedIn</p> */}
+                </div>
+                <div><img src={icons.git} alt="" />
+                {/* <p>github</p> */}
+                </div>
             </div>
       </div>
   )
