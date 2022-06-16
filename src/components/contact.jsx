@@ -25,14 +25,18 @@ const Contact = () => {
                 </form>
       </div>
              <div className='contact-logo'>
-                <div><img src={icons.twitter} alt="" />
-                {/* <p>twitter</p> */}
+                <div>
+                {/* <p>twitter</p> */} <a href="#"><img src={icons.twitter} alt="" /></a>
                 </div>
-                <div><img src={icons.linkedin} alt="" />
+                <div>
                 {/* <p>linkedIn</p> */}
+                <a href="https://www.linkedin.com/in/ifeanyi-emmanuel-nwosu-81a027147/">
+                     <img src={icons.linkedin} alt="" />
+                     </a>
                 </div>
-                <div><img src={icons.git} alt="" />
+                <div>
                 {/* <p>github</p> */}
+                <a href="https://github.com/Chifez"><img src={icons.git} alt="" /></a>
                 </div>
             </div>
       </div>

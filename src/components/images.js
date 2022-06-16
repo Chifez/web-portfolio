@@ -11,5 +11,6 @@ export const icons = {
  }
 
  export const images ={
-        main:require('../assets/images/IMG_20210322_172007-removebg-preview.png'),
+        main_left:require('../assets/images/IMG_20210322_172007-removebg-preview.png'),
+        main_right:require('../assets/images/IMG_20210322_170757-removebg-preview.png'),
  }

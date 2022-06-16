@@ -5,7 +5,6 @@
   align-content: center;
   padding: 1rem;
   font-family: monospace;
-
 }
 
 .body-img{
@@ -17,11 +16,19 @@
 }
 
 .body-img img{
-  position: absolute;
-  left: -15rem;
-  width:60vw;
-  height: 90vh;
+  display: none;
+  /* position: absolute;
+  top:2rem;
+  left: -5rem; */
+  width:20vw;
+  height: 40vh;
   object-fit: cover;
+  background-color: grey;
+  border-radius: 100%;
+  /* transition: .5s ease-in;  */
+}
+.body-img:hover img{
+  /* display:block; */
 }
 
 .body-content{
@@ -127,10 +134,10 @@ textarea{
   margin:2rem 0;
   border: 1px solid gray;
   background:-webkit-linear-gradient(0deg,grey 50%,transparent 50%);
-  background-size:200%;
+  background-size: 200%;
   transition: all .3s ease-in;
   font-family: monospace;
-  font-size:0.9rem;
+  font-size: 0.9rem;
   font-weight: 700;
   text-decoration: none;
   color:white;
@@ -160,4 +167,11 @@ opacity:1;
 
 .contact-logo div{
  margin:1rem;
+}
+
+.contact-logo img{
+  width:30px;
+  height: 30px;
+  object-fit: contain;
+  filter: invert(1);
 }

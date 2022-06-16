@@ -12,7 +12,12 @@ const HomeBody = () => {
                 <div><img src="" alt="" /> <p>github</p></div>
             </div> */}
             <div className='body-img'>
-                <img src={images.main} alt="" />
+              {/* <div>
+                <img className="main_left"src={images.main_left} alt="" />
+              </div> */}
+              <div>
+                <img className ="main_right" src={images.main_right} alt="" />
+              </div>
             </div>
             <div className='body-content'>
                 <h2>
