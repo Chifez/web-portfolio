@@ -158,7 +158,7 @@ opacity:1;
 
 .contacts .contact-logo{
   position: absolute;
-  bottom: 10rem;
+  bottom: 8rem;
   left:60%;
   display: flex;
   justify-content: space-between;
@@ -166,7 +166,7 @@ opacity:1;
 }
 
 .contact-logo div{
- margin:1rem;
+ margin:0 1.5rem;
 }
 
 .contact-logo img{

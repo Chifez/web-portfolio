@@ -26,7 +26,7 @@ const Contact = () => {
       </div>
              <div className='contact-logo'>
                 <div>
-                {/* <p>twitter</p> */} <a href="#"><img src={icons.twitter} alt="" /></a>
+                {/* <p>twitter</p> */} <a href="https://twitter.com/chifez4u"><img src={icons.twitter} alt="" /></a>
                 </div>
                 <div>
                 {/* <p>linkedIn</p> */}

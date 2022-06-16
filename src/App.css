@@ -27,7 +27,8 @@
   align-items: center;
   width:100vw;
   margin-bottom: 5px;
-  background-color: lightslategray;
+  z-index: 10;
+  /* background-color: lightslategray; */
 }
 
 .App nav{
@@ -40,6 +41,9 @@
  padding: 0 1.5rem;
  text-transform:capitalize;
  
+}
+.navbar h2{
+  font-size:2rem;
 }
 
 .navlink a{
