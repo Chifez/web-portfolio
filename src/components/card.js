@@ -1,48 +1,54 @@
+import { icons } from './images';
  export const cards = [
 
      { 
-         className:'fylo',
+         className:'work fylo',
          link:'#',
          title:"fylo",
+         img: icons.git,
          tools:[
             "react","tailwindcss","firebase"
          ],
-         description: "lorem10"
+         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
      },
      {
-        className:'weatherApp',
+        className:'work weatherApp',
         link:'#',
         title:"weatherApp",
+        img: icons.git,
         tools:[
            "react","CSS"
         ],
-        description: "lorem10"
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
     },
     {
-        className:'Todo_app',
+        className:' work Todo_app',
         link:'#',
         title:"Todo app",
+        img: icons.git,
         tools:[
            "react","CSS"
         ],
-        description: "lorem10"
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
     },
     {
-        className:'Expense_tracker',
+        className:'work Expense_tracker',
         link:'#',
         title:"Expense tracker",
+        img: icons.git,
         tools:[
            "javascript","CSS","HTML"
         ],
-        description: "lorem10"
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
     },
     {
-        className:'tic_tac_toe',
+        className:'work tic_tac_toe',
         link:'#',
         title:"Tic tac toe",
+        img: icons.git,
         tools:[
            "javascript","CSS","HTML"
         ],
-        description: "lorem10"
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
     },
  ]
