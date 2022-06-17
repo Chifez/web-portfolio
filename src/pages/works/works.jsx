@@ -5,7 +5,7 @@ import './works.scss'
 
 const Works = () => {
   return (
-    <div className='works'>
+    <div className='works' id="works">
       <div className='works_header'>
         <h2> 03. works /</h2>
       </div>

@@ -14,9 +14,9 @@ const Navbar = () => {
            <h2> <span>&lt;</span>EM./<span>&gt;</span> </h2>
         </div> 
         <nav>
-            <Navlink link ="/"title = "home"/>
-            <Navlink link ="/"title = "about"/>
-            <Navlink link ="/" title = "works"/>
+            <Navlink link ="#home"title = "home"/>
+            <Navlink link ="#about"title = "about"/>
+            <Navlink link ="#works" title = "works"/>
         </nav>
     </div>
     <div className='fill'><div style={{width: `${scrollPos}` , backgroundColor:'blue', height:'2px'}}></div></div>

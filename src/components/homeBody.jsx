@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect'
 
 const HomeBody = () => {
   return (
-    <div className='body'>
+    <div className='body' id="home">
        
             {/* <div className='body-logo'>
                 <div><img src="" alt="" /> <p>twitter</p></div>
@@ -32,7 +32,10 @@ const HomeBody = () => {
                 <p>
                    Hi, i am <span style={{color:'crimson'}}>Emmanuel</span> a web developer from lagos,Nigeria with keen interest in interactive web applications
                 </p>
-                <button><a href="/#"><span>&lt;</span> view my work <span>/&gt;</span></a></button>
+                <div>
+                <button><a href="#works"><span>&lt;</span> view my work <span>/&gt;</span></a></button>
+                <button><a href="#contact"><span>&lt;</span> contact me <span>/&gt;</span></a></button>
+                </div>
             </div>
     </div>
   )

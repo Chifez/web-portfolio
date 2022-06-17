@@ -3,7 +3,7 @@ import "./about.css"
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id="about">
         <h2><span>&lt;</span>About EM.<span>/&gt;</span></h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sed iste beatae esse adipisci cumque debitis? Sit, atque impedit? Culpa nesciunt totam eveniet perspiciatis soluta odit ex veniam earum cupiditate inventore. Illum accusamus repellendus qui a! Cumque velit exercitationem iure, neque explicabo rerum quas eos earum, totam maxime est dolor!</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, ipsa ipsum quod quae iste impedit commodi nam quidem nobis, earum dolorem, cumque illum iure sapiente voluptatem placeat. Et, nisi cumque, ab excepturi quasi, cupiditate explicabo deleniti dolores accusamus totam consequatur perspiciatis sint non laudantium eius nesciunt repellat reiciendis! Nulla, consequatur.</p>

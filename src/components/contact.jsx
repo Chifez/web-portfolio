@@ -3,7 +3,7 @@ import { icons } from './images'
 
 const Contact = () => {
   return (
-      <div className='contacts'>
+      <div className='contacts' id="contact">
       <div className='contact'>
           <h2>say hi</h2>
                 <form className='contact-form'>
