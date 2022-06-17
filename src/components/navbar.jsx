@@ -1,10 +1,14 @@
-import React from 'react'
+import React,{useContext} from 'react'
+import AppContext from '../context/context'
 import Navlink from './navlink'
 import { Outlet } from 'react-router-dom'
 
+
 const Navbar = () => {
+  const {scrollPos} = useContext(AppContext)
   return (
     <>
+    <div>
     <div className='navbar'>
        <div>
            <h2> <span>&lt;</span>EM./<span>&gt;</span> </h2>
@@ -15,6 +19,9 @@ const Navbar = () => {
             <Navlink link ="/" title = "works"/>
         </nav>
     </div>
+    <div className='fill'><div style={{width: `${scrollPos}` , backgroundColor:'blue', height:'2px'}}></div></div>
+    </div>
+
         <Outlet />
     </>
   )

@@ -46,6 +46,12 @@
   font-size:2rem;
 }
 
+.fill{
+  position: fixed;
+  border:1px solid lightgray;
+  width:100%;
+  height: 2px;
+}
 .navlink a{
   font-family: monospace;
   font-size: 1rem;

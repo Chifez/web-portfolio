@@ -16,12 +16,12 @@ const HomeBody = () => {
                 <img className="main_left"src={images.main_left} alt="" />
               </div> */}
               <div>
-                <img className ="main_right" src={images.main_right} alt="" />
+                <img className ="main_right" src={images.avatar} alt="" />
               </div>
             </div>
             <div className='body-content'>
                 <h2>
-                <Typewriter className="body-title"onInit={(typewriter)=>{
+                <Typewriter className="body-title" onInit={(typewriter)=>{
                         typewriter.typeString('FRONTEND WEB DEVELOPER')
                         .pauseFor(1000)
                         .typeString('')
@@ -30,7 +30,7 @@ const HomeBody = () => {
                     }} />
                 </h2>
                 <p>
-                     i am emmanuel, a web developer from lagos,Nigeria with keen interest in interactive web applications
+                   Hi, i am <span style={{color:'crimson'}}>Emmanuel</span> a web developer from lagos,Nigeria with keen interest in interactive web applications
                 </p>
                 <button><a href="/#"><span>&lt;</span> view my work <span>/&gt;</span></a></button>
             </div>

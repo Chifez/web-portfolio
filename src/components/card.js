@@ -9,7 +9,7 @@ import { icons } from './images';
          tools:[
             "react","tailwindcss","firebase"
          ],
-         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
+         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores iure doloribus dolor ducimus totam rem, ratione hic quisquam magnam culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
      },
      {
         className:'work weatherApp',
@@ -19,7 +19,7 @@ import { icons } from './images';
         tools:[
            "react","CSS"
         ],
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores iure doloribus dolor ducimus totam rem, ratione hic quisquam magnam culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
     },
     {
         className:' work Todo_app',
@@ -29,7 +29,7 @@ import { icons } from './images';
         tools:[
            "react","CSS"
         ],
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores iure doloribus dolor ducimus totam rem, ratione hic quisquam magnam culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
     },
     {
         className:'work Expense_tracker',
@@ -39,7 +39,7 @@ import { icons } from './images';
         tools:[
            "javascript","CSS","HTML"
         ],
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores iure doloribus dolor ducimus totam rem, ratione hic quisquam magnam culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
     },
     {
         className:'work tic_tac_toe',
@@ -49,6 +49,6 @@ import { icons } from './images';
         tools:[
            "javascript","CSS","HTML"
         ],
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores iure doloribus dolor ducimus totam rem, ratione hic quisquam magnam culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
     },
  ]
