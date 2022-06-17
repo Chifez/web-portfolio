@@ -6,7 +6,9 @@ import './works.scss'
 const Works = () => {
   return (
     <div className='works'>
+      <div className='works_header'>
         <h2> 03. works /</h2>
+      </div>
 
         <div className='cards'>
             {cards.map((card, index)=>
