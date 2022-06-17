@@ -12,6 +12,7 @@ const WorkCard = (props) => {
 
                 <a href={props.link}>
                     <img src={props.img} alt="git" />
+            
                 </a>
             </div>
        <div className='tools'>
