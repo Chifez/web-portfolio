@@ -51,4 +51,14 @@ import { icons } from './images';
         ],
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores iure doloribus dolor ducimus totam rem, ratione hic quisquam magnam culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
     },
+    {
+      className:'work guessing_game',
+      link:'#',
+      title:"guessing game",
+      img: icons.git,
+      tools:[
+         "javascript","CSS","HTML"
+      ],
+      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores iure doloribus dolor ducimus totam rem, ratione hic quisquam magnam culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolore eius veniam reprehenderit. Tempora iusto quas corporis similique voluptate tenetur?"
+  },
  ]

@@ -5,7 +5,6 @@
   align-content: center;
   /* padding: 1rem; */
   font-family: monospace;
-  border:2px solid red;
   padding-top: 10vh;
 }
 
@@ -23,18 +22,18 @@
   object-fit: cover;
   background-color: lightslategray;
   border-radius: 100%;
-  /* transition: .5s ease-in;  */
 }
 
 
 .body-content{
   width:100%;
- /* border: 2px solid red; */ 
+  margin-right: .5rem;
 }
 
 .body-content h2{
   text-align: center;
-   font-size:3rem;
+   font-size:5rem;
+   font-family: stretch_reg;
    text-transform: capitalize;
    margin:2rem 0;
  }
@@ -89,6 +88,7 @@ background-position: -100%;
 
 .contact h2{
   text-transform: capitalize;
+  font-family: stretch_reg;
   font-size: 2rem;
   margin:1rem;
 }
