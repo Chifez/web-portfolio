@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './Montserrat/Montserrat-Regular.ttf'
-import './stretcher-font/StretcherRegular-lgOx0.ttf'
+import './Montserrat/Montserrat-Regular.ttf';
+import './Distant-Galaxy-Outline/DISTGAOI.TTF';
 
 import App from './App';
 

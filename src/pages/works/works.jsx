@@ -7,7 +7,7 @@ const Works = () => {
   return (
     <div className='works' id="works">
       <div className='works_header'>
-        <h2><span>&lt;</span>works./<span>&gt;</span></h2>
+        <h2>works.</h2>
       </div>
 
         <div className='cards'>

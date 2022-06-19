@@ -30,11 +30,11 @@ const HomeBody = () => {
                     }} />
                 </h2>
                 <p>
-                   Hi, i am <span style={{color:'crimson'}}>Emmanuel</span> a web developer from lagos,Nigeria with keen interest in interactive web applications
+                   Hi, i am <span style={{color:'crimson'}}>Emmanuel</span> a web developer from Lagos,Nigeria with keen interest in interactive web applications
                 </p>
                 <div>
-                <button><a href="#works"><span>&lt;</span> view my work <span>/&gt;</span></a></button>
-                <button><a href="#contact"><span>&lt;</span> contact me <span>/&gt;</span></a></button>
+                <a href="#works"><button><span>&lt;</span> view my work <span>/&gt;</span></button></a>
+                <a href="#contact"><button><span>&lt;</span> contact me <span>/&gt;</span></button></a>
                 </div>
             </div>
     </div>
