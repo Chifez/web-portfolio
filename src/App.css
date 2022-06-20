@@ -51,8 +51,6 @@
 .navlink{
  padding: 0 1.5rem;
  text-transform:capitalize;
- 
- 
 }
 .navbar h2{
   font-size:2.5rem;
@@ -69,10 +67,10 @@
 .navlink a{
   font-family: galaxy;
   font-size: 1.5rem;
- color: white;
- text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
-.navlink span{
+/* .navlink span{
   opacity: 0;
   transition: .3s ease-in-out;
 }
@@ -80,10 +78,38 @@
 .navlink:hover span,
 .navlink:active{
   opacity:1;
-}
+} */
 
 .App .home{
   width:100%;
   margin-top: 10vh;
 }
 
+
+@media screen and (max-width:950px) and (min-width:250px) {
+  .App nav{
+    position:absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    left:0;
+    right: 0;
+    top:100%;
+    background-color: antiquewhite;
+    width:100%;
+    height: 50vh;
+  }
+
+  .navlink{
+    padding: 1.5rem;
+    text-transform:capitalize;
+   }
+
+   .navlink a{
+    color:black;
+    z-index: 2;
+   }
+
+  
+}

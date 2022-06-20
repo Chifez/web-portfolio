@@ -178,3 +178,48 @@ opacity:1;
   object-fit: contain;
   filter: invert(1);
 }
+
+@media screen and (max-width:950px) and (min-width:250px) {
+  .body{
+    display:grid;
+    grid-auto-flow: row;
+    padding-top: 10vh;
+    justify-content: center;
+  }
+  
+  .body-img{
+    width:0;
+    height:40%;
+    margin: 0 0;
+    left:25%;
+    position: relative;
+}
+
+.body-img > div {
+  display: flex;
+  width:40vw;
+  height: 20vh;
+}
+.body-img img{
+  width:100%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: contain;
+ 
+}
+
+}
+
+@media screen and (max-width:950px) and (min-width:750px){
+
+  .body-img > div {
+    width:50vw;
+    height: 40vh;
+  }
+  .body-img img{
+    width:100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: contain;
+  }
+}
