@@ -32,7 +32,7 @@ const HomeBody = () => {
                 <p>
                    Hi, i am <span style={{color:'crimson'}}>Emmanuel</span> a web developer from Lagos,Nigeria with keen interest in interactive web applications
                 </p>
-                <div>
+                <div className='btn'>
                 <a href="#works"><button><span>&lt;</span> view my work <span>/&gt;</span></button></a>
                 <a href="#contact"><button><span>&lt;</span> contact me <span>/&gt;</span></button></a>
                 </div>

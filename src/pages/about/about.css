@@ -1,8 +1,9 @@
 .about{
     width:90vw;
-    height: 100vh;
+    height: auto;
     margin:0 5rem;
     padding-top: 10vh;
+    position: relative;
 }
 
 .about h2{
@@ -18,7 +19,7 @@ p{
 }
 
 .tech_tools{
-    position: relative;
+    /* position: absolute; */
     display: flex;
     flex-direction:column;
     justify-content: flex-start;
@@ -86,4 +87,27 @@ p{
     100%{
         transform: translateX(-135vw);
     }
+}
+@media screen and (max-width:950px) and (min-width:250px){
+    .about{
+        margin:0 2rem;
+        margin-bottom: 1rem;
+        padding-top: 5vh;
+    }
+    p{
+        font-size:0.9rem;
+    }
+
+    marquee{
+        /* border:2px solid red; */
+        width:80vw;
+    }
+    
+    .marquee img{
+        width:50px;
+        height:50px;
+        object-fit: cover;
+        margin: 0 5rem;
+    }
+    
 }
