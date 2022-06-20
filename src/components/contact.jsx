@@ -36,7 +36,7 @@ const Contact = () => {
                 </div>
                 <div>
                 {/* <p>github</p> */}
-                <a href="https://github.com/Chifez"><img src={icons.git} alt="" /></a>
+                <a href="https://github.com/Chifez"><img src={icons.github} alt="" /></a>
                 </div>
             </div>
       </div>

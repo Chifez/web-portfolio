@@ -5,7 +5,7 @@ import { icons } from './images';
          className:'work fylo',
          link:'#',
          title:"fylo",
-         img: icons.git,
+         img: icons.github,
          tools:[
             "react","tailwindcss","firebase"
          ],
@@ -15,7 +15,7 @@ import { icons } from './images';
         className:'work weatherApp',
         link:'#',
         title:"weatherApp",
-        img: icons.git,
+        img: icons.github,
         tools:[
            "react","CSS"
         ],
@@ -25,7 +25,7 @@ import { icons } from './images';
         className:' work Todo_app',
         link:'#',
         title:"Todo app",
-        img: icons.git,
+        img: icons.github,
         tools:[
            "react","CSS"
         ],
@@ -35,7 +35,7 @@ import { icons } from './images';
         className:'work Expense_tracker',
         link:'#',
         title:"Expense tracker",
-        img: icons.git,
+        img: icons.github,
         tools:[
            "javascript","CSS","HTML"
         ],
@@ -45,7 +45,7 @@ import { icons } from './images';
         className:'work tic_tac_toe',
         link:'#',
         title:"Tic tac toe",
-        img: icons.git,
+        img: icons.github,
         tools:[
            "javascript","CSS","HTML"
         ],
@@ -55,7 +55,7 @@ import { icons } from './images';
       className:'work guessing_game',
       link:'#',
       title:"guessing game",
-      img: icons.git,
+      img: icons.github,
       tools:[
          "javascript","CSS","HTML"
       ],

@@ -1,7 +1,11 @@
 import React from 'react'
 import "./about.css"
+import {icons} from '../../../src/components/images'
+
+
 
 const About = () => {
+  const {html,css,javascript,react,sass,tailwindcss,firebase,git,github} = icons
   return (
     <div className='about' id="about">
         <h2>About EM.</h2>
@@ -9,17 +13,31 @@ const About = () => {
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, ipsa ipsum quod quae iste impedit commodi nam quidem nobis, earum dolorem, cumque illum iure sapiente voluptatem placeat. Et, nisi cumque, ab excepturi quasi, cupiditate explicabo deleniti dolores accusamus totam consequatur perspiciatis sint non laudantium eius nesciunt repellat reiciendis! Nulla, consequatur.</p>
         <div className='tech_tools'>
           <div>
-            <h2>My Tools</h2>
+              <h2>My Tools</h2>
           </div>
-          <img src="" alt="html" />
-          <img src="" alt="css" />
-          <img src="" alt="javascript" />
-          <img src="" alt="react" />
-          <img src="" alt="sass" />
-          <img src="" alt="tailwindcss" />
-          <img src="" alt="firebase" />
-          <img src="" alt="git" />
-          <img src="" alt="github" />
+          <div className='marquee'>
+            <div className='marquee_content'>
+              <li><img src={html} alt="html" /></li>
+              <li><img src={css} alt="css" /></li>
+              <li><img src={javascript} alt="javascript" /></li>
+              <li><img src={react} alt="react" /></li>
+              <li> <img src={sass} alt="sass" /></li>
+              <li> <img src={tailwindcss} alt="tailwindcss" /></li>
+              <li><img src={firebase} alt="firebase" /></li>
+              <li><img src={git} alt="git" /></li>
+              <li><img src={github} alt="github" /> </li>
+
+              <li><img src={html} alt="html" /></li>
+              <li><img src={css} alt="css" /></li>
+              <li><img src={javascript} alt="javascript" /></li>
+              <li><img src={react} alt="react" /></li>
+              <li> <img src={sass} alt="sass" /></li>
+              <li> <img src={tailwindcss} alt="tailwindcss" /></li>
+              <li><img src={firebase} alt="firebase" /></li>
+              <li><img src={git} alt="git" /></li>
+              <li><img src={github} alt="github" /> </li>
+            </div>
+          </div>
         </div>
     </div>
   )
