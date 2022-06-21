@@ -272,6 +272,21 @@ opacity:1;
   }
 }
 
+@media screen and (max-width:1050px) and (min-width:1000px){
+  .body-content p{
+    margin-right: 2rem;
+    text-align: center;
+    }
+  
+    .body-content button{
+      padding:10px 40px;
+      margin:2rem .5rem;
+      font-size:.7rem;
+      font-weight: 700;
+      color:white;
+    }
+}
+
 
 
 @media (hover: none) and (pointer: fine) {
