@@ -5,24 +5,27 @@
   align-content: center;
   /* padding: 1rem; */
   /* font-family: monospace; */
-  /* padding-top: 10vh; */
-  height: 100vh;
+  padding-top: 10vh;
+  height: auto;
+  width:auto;
 }
 
 .body-img{
     width:40vw;
     height: 90vh;
     /* background-color: lightslategray; */
-    margin: 0 5rem;
+    margin: 0 5rem 0 10rem;
     position: relative;
+    
 }
 
 .body-img img{
-  width:40vw;
-  height: 80vh;
+  width:400px;
+  height: 400px;
   object-fit: cover;
   background-color: lightslategray;
-  border-radius: 100%;
+  border-radius: 50%;
+  position: relative;
 }
 
 
@@ -187,31 +190,27 @@ opacity:1;
   .body{
     display:grid;
     grid-auto-flow: row;
-    padding-top: 10vh;
+    /* padding-top: 10vh; */
     justify-content: center;
   }
   
   .body-img{
-    width:0;
-    height:40%;
+    width:auto;
+    height:auto;
     margin: 0 0;
-    left:25%;
     position: relative;
+    left:0;
+    right: 0;
+    transform: translateX(15vw);
 }
-.body-img > div {
-  display: flex;
-  width:50vw;
-  height: 30vh;
-}
+
 .body-img img{
-  width:100%;
-  height: 100%;
-  border-radius: 100%;
-  object-fit: contain;
+  width:250px;
+  height: 250px;
 }
 
 .body-content h2{
-   font-size:3rem;
+   font-size:2rem;
  }
 
  .body-content p{
@@ -229,9 +228,18 @@ opacity:1;
   }
 
   .contacts{
-    display: grid;
-    grid-auto-flow:row;
+    display: flex;
+    flex-direction: column;
   }
+
+  .contact{
+    margin:2rem 2rem;
+    width:100vw;
+}
+
+.form{
+  width:60%;
+ }
   .contacts .contact-logo{
     position: static;
     bottom: 0;
@@ -244,17 +252,19 @@ opacity:1;
    }
 }
 
+
 @media screen and (max-width:950px) and (min-width:750px){
-  .body-img > div {
-    width:50vw;
-    height: 40vh;
-  }
-  .body-img img{
-    width:100%;
-    height: 100%;
-    border-radius: 100%;
-    object-fit: contain;
-  }
+  
+  .body-img{
+    width:0;
+    height:40%;
+    margin: 0 0;
+    position: relative;
+    left:0;
+    right: 0;
+    transform: translateX(30vw);
+}
+
   .contacts{
     position: relative;
     display: grid;
