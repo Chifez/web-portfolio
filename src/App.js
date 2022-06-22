@@ -8,21 +8,31 @@ import {motion,useViewportScroll,useTransform} from 'framer-motion'
 
 
 function App() {
-  const [scrollPos, setScrollPos] = useState(50)
+  const [scrollPos, setScrollPos] = useState(0)
   const [open ,setIsOpen] = useState(false)
+
+  const onScroll = () =>{
+    let pixelFromTop = window.scrollY;
+    // console.log(pixelFromTop)
+    let documentHeight = document.body.clientHeight;
+    let windowHeight= window.innerHeight;
+    // console.log(windowHeight)
+    let difference = documentHeight - windowHeight;
+    let percentage = (100 * pixelFromTop) / difference;
+    // console.log(percentage) 
+    setScrollPos(percentage);
+  }
   
-  const {scrollYProgress} = useViewportScroll();
+
+  // const {scrollYProgress} = useViewportScroll();
   
-  const yRange = useTransform(scrollYProgress, [0, 1], [0, 100])
-  console.log(yRange)
-//   useEffect(
-//     () =>
-//         yRange.onChange((v) => {
-//           setScrollPos(Math.trunc(yRange.current))
-//           console.log(scrollYProgress)
-//         }),
-//     [yRange]
-// );
+  // const yRange = useTransform(scrollYProgress, [0, 1], [0, 100])
+  // console.log(yRange)
+
+  useEffect(() =>{
+      window.addEventListener("scroll", onScroll)
+      return ()=> window.removeEventListener('scroll', onScroll)
+    },[]);
 
   return (
               <motion.div className="App">
