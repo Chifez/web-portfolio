@@ -64,7 +64,7 @@ const Navbar = () => {
               </>
           </Navigation>
     </div>
-    <motion.div className='fill' style={{width: `${scrollPos}%`, backgroundColor:'blue', height:'2px'}}>
+    <motion.div className='fill' style={{width: `${scrollPos}%`, height:'2px'}}>
           {/* <div >    
           </div> */}
     </motion.div>
