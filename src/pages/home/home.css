@@ -8,6 +8,7 @@
   padding-top: 10vh;
   height: auto;
   width:auto;
+  border:2px solid red;
 }
 
 .body-img{
@@ -258,7 +259,7 @@ opacity:1;
 }
 
 
-@media screen and (max-width:950px) and (min-width:750px){
+@media screen and (max-width:950px) and (min-width:500px){
   
   .body-img{
     width:0;
@@ -278,8 +279,11 @@ opacity:1;
 }
 
 @media screen and (max-width:1050px) and (min-width:1000px){
+  .body-content{
+    padding-right: 3rem;
+  }
   .body-content p{
-    margin-right: 2rem;
+    margin-right:rem;
     text-align: center;
     }
   

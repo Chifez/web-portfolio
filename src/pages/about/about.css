@@ -2,8 +2,9 @@
     width:90vw;
     height: auto;
     margin:0 5rem;
-    padding-top: 10vh;
+    /* padding-top: 10vh; */
     position: relative;
+    /* border:2px solid red; */
 }
 
 .about h2{
