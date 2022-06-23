@@ -9,8 +9,10 @@ const About = () => {
   return (
     <div className='about' id="about">
         <h2>About EM.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sed iste beatae esse adipisci cumque debitis? Sit, atque impedit? Culpa nesciunt totam eveniet perspiciatis soluta odit ex veniam earum cupiditate inventore. Illum accusamus repellendus qui a! Cumque velit exercitationem iure, neque explicabo rerum quas eos earum, totam maxime est dolor!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, ipsa ipsum quod quae iste impedit commodi nam quidem nobis, earum dolorem, cumque illum iure sapiente voluptatem placeat. Et, nisi cumque, ab excepturi quasi, cupiditate explicabo deleniti dolores accusamus totam consequatur perspiciatis sint non laudantium eius nesciunt repellat reiciendis! Nulla, consequatur.</p>
+        <div className='about_content'>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sed iste beatae esse adipisci cumque debitis? Sit, atque impedit? Culpa nesciunt totam eveniet perspiciatis soluta odit ex veniam earum cupiditate inventore. Illum accusamus repellendus qui a! Cumque velit exercitationem iure, neque explicabo rerum quas eos earum, totam maxime est dolor!</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, ipsa ipsum quod quae iste impedit commodi nam quidem nobis, earum dolorem, cumque illum iure sapiente voluptatem placeat. Et, nisi cumque, ab excepturi quasi, cupiditate explicabo deleniti dolores accusamus totam consequatur perspiciatis sint non laudantium eius nesciunt repellat reiciendis! Nulla, consequatur.</p>
+        </div>
         <div className='tech_tools'>
           <div>
               <h2>My Tools</h2>
