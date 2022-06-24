@@ -17,6 +17,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .App {
  height: auto;
  width: auto;
@@ -25,7 +29,6 @@
  color:white;
  overflow-x: hidden;
  font-family:mont_black;
- scroll-behavior: smooth;
 }
 
 .App .navbar{
@@ -36,7 +39,7 @@
   justify-content: space-between;
   align-items: center;
   width:100vw;
-  margin-bottom: 5px;
+  /* margin-bottom: 10vh; */
   z-index: 10;
   
 }

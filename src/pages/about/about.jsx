@@ -15,15 +15,13 @@ const About = () => {
     data-aos-duration="500"
     data-aos-easing="ease-in-out"
     data-aos-once="true"
-    data-aos-mirror="false"
-    data-aos-anchor-placement="top-center">I am a frontend web developer with interests in creating interactive web application with great user interfaces,actively building my skillset to bring to life jaw dropping designs and improve my design prowess.I am strongly of the opinion that if i can think or imagine it, then i can build it!</p>
+    data-aos-mirror="false">I am a frontend web developer with interests in creating interactive web application with great user interfaces,actively building my skillset to bring to life jaw dropping designs and improve my design prowess.I am strongly of the opinion that if i can think or imagine it, then i can build it!</p>
           <p  data-aos="fade-up"
     data-aos-offset="200"
     data-aos-duration="1050"
     data-aos-easing="ease-in-out"
     data-aos-once="true"
-    data-aos-mirror="false"
-    data-aos-anchor-placement="top-bottom">Being a self taught web developer i still have a lot to learn to but asides coding i play chess a lot as this help to build my decision making and time management skills.</p>
+    data-aos-mirror="false">Being a self taught web developer i still have a lot to learn to but asides coding i play chess a lot as this help to build my decision making and time management skills.</p>
         </div>
         <div className='tech_tools'>
           <div>

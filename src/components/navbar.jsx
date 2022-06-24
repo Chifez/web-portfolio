@@ -1,4 +1,4 @@
-import React,{useContext} from 'react'
+import React,{useContext,useEffect, useState} from 'react'
 import AppContext from '../context/context'
 import styled from 'styled-components'
 import Navlink from './navlink'
@@ -9,6 +9,7 @@ import Socials from './socials'
 
 const Navbar = () => {
   const {scrollPos, open} = useContext(AppContext);
+  const [isOpen,setIsOpen] = useState('')
 
   const Navigation  = styled.nav`
   display: flex;
@@ -33,7 +34,7 @@ const Navbar = () => {
     height: 70vh;
     // isolation: isolate;
     z-index: -1;
-    // transform: translateX(-100%);
+    transform: translateX(-100%);
     transform : ${open ? 'translateX(0)' : 'translateX(-100%)'};
     transition:'transform .5s ease-in';
     background:'black';
@@ -45,8 +46,18 @@ const Navbar = () => {
   }
   `;
 
+ const nav = () =>{
+  if (open){
+    setIsOpen('fade-left');
+    console.log(isOpen)
+  }else {
+  setIsOpen('');
+  }
+ }
 
-
+useEffect(()=>{
+ nav();
+},[open])
   return (
     <>
     <div>
@@ -56,7 +67,9 @@ const Navbar = () => {
         </div> 
 
         <Burger />
-          <Navigation>
+          <Navigation 
+          // data-aos={isOpen} data-aos-duration='500'
+          >
               <Navlink link ="#home"title = "home" />
               <Navlink link ="#about"title = "about"/>
               <Navlink link ="#works" title = "works"/>
