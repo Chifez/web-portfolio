@@ -26,8 +26,8 @@ const About = () => {
               <li> <img src={sass} alt="sass" /></li>
               <li> <img src={tailwindcss} alt="tailwindcss" /></li>
               <li><img src={firebase} alt="firebase" /></li>
-              <li><img src={git} alt="git" /></li>
-              <li><img src={github} alt="github" /> </li>
+              <li><img src={git} alt="git"  /></li>
+              <li><img src={github} alt="github" style={{filter:'invert(1)'}} /> </li>
 
               <li><img src={html} alt="html" /></li>
               <li><img src={css} alt="css" /></li>
@@ -36,8 +36,8 @@ const About = () => {
               <li> <img src={sass} alt="sass" /></li>
               <li> <img src={tailwindcss} alt="tailwindcss" /></li>
               <li><img src={firebase} alt="firebase" /></li>
-              <li><img src={git} alt="git" /></li>
-              <li><img src={github} alt="github" /> </li>
+              <li><img src={git} alt="git"  /></li>
+              <li><img src={github} alt="github" style={{filter:'invert(1)'}}/> </li>
             </div>
           </div>
         </div>

@@ -62,7 +62,7 @@
 
 .fill{
   position: fixed;
-  border:1.5px solid blue;
+  background: orange;
   width:100%;
   /* height: ; */
   z-index: 10;
