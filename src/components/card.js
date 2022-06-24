@@ -7,6 +7,7 @@ import { icons } from './images';
          title:"fylo",
          img: icons.github,
          links:'https://github.com/Chifez/fylo',
+         animate:"fade-up-left",
          tools:[
             "react","tailwindcss","firebase"
          ],
@@ -18,6 +19,7 @@ import { icons } from './images';
         title:"weatherApp",
         img: icons.github,
         links:'https://github.com/Chifez/weatherapp',
+        animate:"fade-up-right",
         tools:[
            "react","CSS"
         ],
@@ -29,6 +31,7 @@ import { icons } from './images';
         title:"Todo app",
         img: icons.github,
         links:'',
+        animate:"fade-up-left",
         tools:[
            "react","CSS"
         ],
@@ -40,6 +43,7 @@ import { icons } from './images';
         title:"Expense tracker",
         img: icons.github,
         links:'https://github.com/Chifez/expense-tracker',
+        animate:"fade-up-right",
         tools:[
            "javascript","CSS","HTML"
         ],
@@ -51,6 +55,7 @@ import { icons } from './images';
         title:"Tic tac toe",
         img: icons.github,
         links:'https://github.com/Chifez/tic-tac-toe',
+        animate:"fade-up-left",
         tools:[
            "javascript","CSS","HTML"
         ],
@@ -62,6 +67,7 @@ import { icons } from './images';
       title:"guessing game",
       img: icons.github,
       links:'https://github.com/Chifez/guess-it',
+      animate:'fade-up-right',
       tools:[
          "javascript","CSS","HTML"
       ],

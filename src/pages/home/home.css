@@ -1,3 +1,8 @@
+:root{
+  --bg-colour: rgba(255,255,255,.2)
+  /* linear-gradient(to bottom right,#414141,#000000); */
+}
+
 .body{
   display:grid;
   grid-auto-flow: column;
@@ -126,7 +131,7 @@ background-position: -100%;
   border-bottom: 2px solid grey;
   padding:.5rem;
   margin-top: 15px;
-  background: none;
+  background: inherit;
   outline: none;
   color:whitesmoke;
 }
@@ -144,6 +149,7 @@ textarea{
   caret-color: grey;
   color:whitesmoke;
 }
+
 .contact button{
   padding:10px 50px;
   margin:2rem 0;

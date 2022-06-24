@@ -59,12 +59,12 @@ const Contact = () => {
                 <form ref={form} onSubmit={sendEmail} className='contact-form'>
                     <div className='form'>
                         <label htmlFor="name">name</label>
-                        <input type="text" name="user_name" value ={inputs.name}onChange = {(e)=>setInput({...inputs, name: e.target.value})}/>
+                        <input type="text" name="user_name" autocomplete="off" value ={inputs.name}onChange = {(e)=>setInput({...inputs, name: e.target.value})}/>
                     </div>
 
                     <div className='form'>
                         <label htmlFor="email">Email</label>
-                        <input type="email" name="user_email" value={inputs.email} onChange= {(e)=>setInput({...inputs, email: e.target.value})}/>
+                        <input type="email" name="user_email" autocomplete="off" value={inputs.email} onChange= {(e)=>setInput({...inputs, email: e.target.value})}/>
                     </div>
 
                     <div className='form'>

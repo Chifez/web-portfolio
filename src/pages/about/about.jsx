@@ -9,9 +9,21 @@ const About = () => {
   return (
     <div className='about' id="about">
         <h2>About EM.</h2>
-        <div className='about_content'>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sed iste beatae esse adipisci cumque debitis? Sit, atque impedit? Culpa nesciunt totam eveniet perspiciatis soluta odit ex veniam earum cupiditate inventore. Illum accusamus repellendus qui a! Cumque velit exercitationem iure, neque explicabo rerum quas eos earum, totam maxime est dolor!</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, ipsa ipsum quod quae iste impedit commodi nam quidem nobis, earum dolorem, cumque illum iure sapiente voluptatem placeat. Et, nisi cumque, ab excepturi quasi, cupiditate explicabo deleniti dolores accusamus totam consequatur perspiciatis sint non laudantium eius nesciunt repellat reiciendis! Nulla, consequatur.</p>
+        <div className='about_content' >
+          <p  data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-duration="500"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true"
+    data-aos-mirror="false"
+    data-aos-anchor-placement="top-center">I am a frontend web developer with interests in creating interactive web application with great user interfaces,actively building my skillset to bring to life jaw dropping designs and improve my design prowess.I am strongly of the opinion that if i can think or imagine it, then i can build it!</p>
+          <p  data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-duration="1050"
+    data-aos-easing="ease-in-out"
+    data-aos-once="true"
+    data-aos-mirror="false"
+    data-aos-anchor-placement="top-bottom">Being a self taught web developer i still have a lot to learn to but asides coding i play chess a lot as this help to build my decision making and time management skills.</p>
         </div>
         <div className='tech_tools'>
           <div>

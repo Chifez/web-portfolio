@@ -22,7 +22,7 @@ const Navbar = () => {
   @media screen and (max-width:950px) and (min-width:250px) {
     position:fixed;
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: space-around;
     align-items: center;
     left:0;
@@ -33,14 +33,15 @@ const Navbar = () => {
     height: 70vh;
     // isolation: isolate;
     z-index: -1;
-    transform: translateX(-100%);
+    // transform: translateX(-100%);
     transform : ${open ? 'translateX(0)' : 'translateX(-100%)'};
-    // transition: all .3s ease-in;
+    transition:'transform .5s ease-in';
     background:'black';
-  
+
     .contact-logo{
       display:flex;
     }
+
   }
   `;
 
@@ -56,7 +57,7 @@ const Navbar = () => {
 
         <Burger />
           <Navigation>
-              <Navlink link ="#home"title = "home"/>
+              <Navlink link ="#home"title = "home" />
               <Navlink link ="#about"title = "about"/>
               <Navlink link ="#works" title = "works"/>
               <>

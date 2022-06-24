@@ -1,9 +1,10 @@
 import React from 'react'
 
-const WorkCard = (props) => {
+const WorkCard = (props,{key}) => {
   return (
     Object.values(props).map((props)=>
-    <div className={props.className}>
+    <div className={props.className} key={key} data-aos={props.animate}  data-aos-mirror="false"
+    data-aos-once="true" data-aos-duration = "1000">
         <div className='title'>
             <div className='link'>
                 <a href={props.link}>

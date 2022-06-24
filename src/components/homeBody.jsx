@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect'
 
 const HomeBody = () => {
   return (
-    <div className='body' id="home">
+    <div className='body' id="home" >
        
             {/* <div className='body-logo'>
                 <div><img src="" alt="" /> <p>twitter</p></div>
@@ -15,7 +15,7 @@ const HomeBody = () => {
               {/* <div>
                 <img className="main_left"src={images.main_left} alt="" />
               </div> */}
-              <div>
+              <div >
                 <img className ="main_right" src={images.avatar} alt="" />
               </div>
             </div>
