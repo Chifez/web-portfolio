@@ -27,10 +27,10 @@ import { icons } from './images';
     },
     {
         className:' work Todo_app',
-        link:'#',
+        link:'https://note-taking-app-henna.vercel.app/',
         title:"Todo app",
         img: icons.github,
-        links:'',
+        links:'https://github.com/Chifez/note-taking-app',
         animate:"fade-up-left",
         tools:[
            "react","CSS"
