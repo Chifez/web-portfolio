@@ -7,11 +7,11 @@ const WorkCard = (props,{key}) => {
     data-aos-once="true" data-aos-duration = "1000">
         <div className='title'>
             <div className='link'>
-                <a href={props.link}>
+                <a href={props.link} target='_blank' rel='noreferrer' >
                 <h2>{props.title}</h2>
                 </a>
 
-                <a href={props.links}>
+                <a href={props.links}  target='_blank'rel='noreferrer'>
                     <img src={props.img} alt="git" />
             
                 </a>
