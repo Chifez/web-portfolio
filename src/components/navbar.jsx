@@ -46,18 +46,18 @@ const Navbar = () => {
   }
   `;
 
- const nav = () =>{
-  if (open){
-    setIsOpen('fade-left');
-    console.log(isOpen)
-  }else {
-  setIsOpen('');
-  }
- }
+//  const nav = () =>{
+//   if (open){
+//     setIsOpen('fade-left');
+//     console.log(isOpen)
+//   }else {
+//   setIsOpen('');
+//   }
+//  }
 
-useEffect(()=>{
- nav();
-},[open])
+// useEffect(()=>{
+//  nav();
+// },[open])
   return (
     <>
     <div>
