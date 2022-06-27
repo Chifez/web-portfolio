@@ -10,9 +10,10 @@
   align-content: center;
   /* padding: 1rem; */
   /* font-family: monospace; */
-  padding-top: 10vh;
-  padding-bottom:5vh;
-  height: 110vh;
+  padding-right: 5rem;
+  padding-top: 20vh;
+  padding-bottom:15vh;
+  height: auto;
   width:auto;
 }
 
@@ -204,6 +205,7 @@ opacity:1;
     grid-auto-flow: row;
     /* padding-top: 10vh; */
     justify-content: center;
+    padding-right: 0;
   }
   
   .body-img{
