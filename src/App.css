@@ -51,9 +51,27 @@ html{
 }
 
 .navlink{
- padding: 0 1.5rem;
+  position: relative;
+ margin: 0 1.5rem;
  text-transform:capitalize;
 }
+
+
+.navlink:after{
+  content: "";
+  position: absolute;
+  background-color: lightgray;
+  height: 3px;
+  width:0;
+  left:0;
+  bottom:0;
+  transition: 0.3s ease-in;
+}
+
+.navlink:hover:after{
+  width:100%;
+}
+
 .navbar h2{
   font-size:2.5rem;
   font-family: galaxy;
@@ -67,7 +85,7 @@ html{
   position: fixed;
   background: orange;
   width:100%;
-  /* height: ; */
+  height: 2rem;
   z-index: 10;
   transition: all .2s ease;
 }
