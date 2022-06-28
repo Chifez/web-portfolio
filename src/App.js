@@ -41,7 +41,7 @@ function App() {
                 {!loading && <div 
                 style={{display:'flex', justifyContent:'center', alignItems:'center', width:'100vw', height:'100vh', backgroundColor:'black'}}
                 >
-                  <Triangle color="#00BFFF" height={100} width={100} arialLabel='loading-indicator' />
+                  <Triangle color="#00BFFF" height={120} width={120} arialLabel='loading-indicator' />
                   </div>}
                   {loading && <AppContext.Provider value = {{scrollPos, open, setIsOpen}}>
                   <Navbar/>

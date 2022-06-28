@@ -137,6 +137,9 @@ p{
         object-fit: cover;
         margin: 0 3rem;
     }
+    .tech_tools h2{
+        margin-right: 2rem;
+    }
 
     /* .marquee_content{
         animation: marquee 10s linear infinite;
