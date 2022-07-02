@@ -21,7 +21,7 @@ const About = () => {
     data-aos-duration="1050"
     data-aos-easing="ease-in-out"
     data-aos-once="true"
-    data-aos-mirror="false">Being a self taught web developer i still have a lot to learn to but asides coding i play chess a lot as this help to build my decision making and time management skills.</p>
+    data-aos-mirror="false">Generally i like to describe myself as a laser focused developer,focusing on a predefined career path while trying to flow with the never changing advancements in technology.As a self taught web developer i still have a lot to learn, but asides coding i play chess a lot as this help to build my decision making and time management skills.</p>
         </div>
         <div className='tech_tools'>
           <div>

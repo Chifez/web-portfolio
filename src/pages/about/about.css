@@ -18,13 +18,13 @@
 }
 
 p{
-    font-size:.9rem;
+    font-size:1rem;
+    font-weight: 600;
     line-height: 2rem;
     margin-bottom: 3rem;
 }
 
 .tech_tools{
-    /* position: absolute; */
     display: flex;
     flex-direction:column;
     justify-content: flex-start;
@@ -37,7 +37,6 @@ p{
 
 
 .marquee{
-    /* border:2px solid red; */
     width:90vw;
     overflow: hidden;
 }
@@ -136,6 +135,10 @@ p{
         height:50px;
         object-fit: cover;
         margin: 0 3rem;
+    }
+
+    .marquee_content:hover{
+        animation-play-state:running;
     }
     .tech_tools h2{
         margin-right: 2rem;
