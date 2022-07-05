@@ -23,7 +23,7 @@ const HomeBody = () => {
                 <h2>
                 <Typewriter className="body-title" onInit={(typewriter)=>{
                         typewriter.typeString('FRONTEND WEB DEVELOPER')
-                        .pauseFor(1000)
+                        .pauseFor(500)
                         .typeString('')
                         .changeDelay(50)
                         .start();
