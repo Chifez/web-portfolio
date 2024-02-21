@@ -1,110 +1,104 @@
 @font-face {
   font-family: mont_black;
-  src: local('mont_black'),
-      url('./Montserrat/Montserrat-Regular.ttf');
+  src: local('mont_black'), url('./Montserrat/Montserrat-Regular.ttf');
 }
 
 @font-face {
   font-family: galaxy;
-  src: local('galaxy'),
-      url('./Distant-Galaxy-Outline/DISTGAOI.TTF');
+  src: local('galaxy'), url('./Distant-Galaxy-Outline/DISTGAOI.TTF');
 }
 
-
-*{
-  padding:0;
-  margin:0;
+* {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
 .App {
- height: auto;
- width: auto;
- background-image: linear-gradient(to bottom right,#414141,#000000);
- background-size: cover;
- color:white;
- overflow-x: hidden;
- font-family:mont_black;
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to bottom right, #414141, #000000);
+  background-size: cover;
+  color: white;
+  overflow-x: hidden;
+  font-family: mont_black;
 }
 
-.App .navbar{
+.App .navbar {
   position: fixed;
-  top:0;
+  top: 0;
   display: flex;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   justify-content: space-between;
   align-items: center;
-  width:100vw;
-  /* margin-bottom: 10vh; */
+  width: 100vw;
+  background-image: linear-gradient(to bottom right, #555555, #222222);
+
   z-index: 10;
-  
+  box-shadow: 0 1px 1px gray;
 }
 
-.App nav{
+.App nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.navlink{
+.navlink {
   position: relative;
- margin: 0 1.5rem;
- text-transform:capitalize;
+  margin: 0 1.5rem;
+  text-transform: capitalize;
 }
 
-
-.navlink:after{
-  content: "";
+.navlink:after {
+  content: '';
   position: absolute;
   background-color: lightgray;
   height: 3px;
-  width:0;
-  left:0;
-  bottom:0;
+  width: 0;
+  left: 0;
+  bottom: 0;
   transition: 0.3s ease-in;
 }
 
-.navlink:hover:after{
-  width:100%;
+.navlink:hover:after {
+  width: 100%;
 }
 
-.navbar h2{
-  font-size:2.5rem;
+.navbar h2 {
+  font-size: 2.5rem;
   font-family: galaxy;
 }
 
-.navbar .contact-logo{
-   display:none;
+.navbar .contact-logo {
+  display: none;
 }
 
-.fill{
+.fill {
   position: fixed;
   background: orange;
-  width:100%;
+  width: 100%;
   height: 2rem;
   z-index: 10;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
-.navlink a{
+.navlink a {
   font-family: galaxy;
   font-size: 1.5rem;
   color: white;
   text-decoration: none;
 }
 
-.App .home{
-  width:100%;
+.App .home {
+  width: 100%;
   /* margin-top: 10vh; */
 }
 
-
-@media screen and (max-width:950px) and (min-width:250px) {
-
-
+@media screen and (max-width: 950px) and (min-width: 250px) {
   /* nav{
     position:absolute;
     display:flex;
@@ -123,26 +117,24 @@ html{
 
   } */
 
-  .navbar h2{
-    z-index:100;
+  .navbar h2 {
+    z-index: 100;
   }
 
   /* .navbar .contact-logo{
     display:flex;
  } */
 
- .navbar .contact-logo div{
-  margin:0 1rem;
- }
-  .navlink{
+  .navbar .contact-logo div {
+    margin: 0 1rem;
+  }
+  .navlink {
     padding: 1.5rem;
-    text-transform:capitalize;
-   }
+    text-transform: capitalize;
+  }
 
-   .navlink a{
-    color:white;
+  .navlink a {
+    color: white;
     z-index: 2;
-   }
-
-  
+  }
 }
