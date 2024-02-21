@@ -1,27 +1,45 @@
 import { icons } from './images';
 export const cards = [
   {
+    className: 'work chatbox',
+    link: 'https://chat-box-tawny.vercel.app/',
+    title: 'chatbox',
+    img: icons.github,
+    links: 'https://github.com/Chifez/chatBox',
+    animate: 'fade-up-left',
+    tools: [
+      'React',
+      'typescript',
+      'socketIO',
+      'Nodejs',
+      'Expressjs',
+      'Tailwindcss',
+    ],
+    description:
+      'Chatbox is a realtime chat application where users can create a room and share a unique link with their friends to chat in realtime,v1 supports user notifications like users joining and leaving the room,typing actitvity,image messaging',
+  },
+  {
     className: 'work faloni',
     link: 'https://stylbit.vercel.app/',
     title: 'faloni',
     img: icons.github,
     links: 'https://github.com/Chifez/stylbit',
-    animate: 'fade-up-left',
+    animate: 'fade-up-right',
     tools: ['React', 'typescript', 'Firebase'],
     description:
       'Faloni is an e-commerce store,built using typescript,Redux toollkit,stripe for payment gateway and tailwindcss for styling.',
   },
-  {
-    className: 'work fylo',
-    link: 'https://fylo-coral-psi.vercel.app/',
-    title: 'fylo',
-    img: icons.github,
-    links: 'https://github.com/Chifez/fylo',
-    animate: 'fade-up-right',
-    tools: ['React', 'tailwindcss', 'Firebase'],
-    description:
-      'Fylo is a simple storage application,that was coined out from building a simple landing page design into a full apllication',
-  },
+  // {
+  //   className: 'work fylo',
+  //   link: 'https://fylo-coral-psi.vercel.app/',
+  //   title: 'fylo',
+  //   img: icons.github,
+  //   links: 'https://github.com/Chifez/fylo',
+  //   animate: 'fade-up-left',
+  //   tools: ['React', 'tailwindcss', 'Firebase'],
+  //   description:
+  //     'Fylo is a simple storage application,that was coined out from building a simple landing page design into a full apllication',
+  // },
   {
     className: 'work weatherApp',
     link: 'https://weatherapp-ten-delta.vercel.app/',
@@ -42,7 +60,7 @@ export const cards = [
     animate: 'fade-up-right',
     tools: ['React', 'Javascript'],
     description:
-      'A markdown enabled note taking application, that has an edit and preview section, users can create,delete and update notes',
+      'A web only markdown enabled note taking application, that has an edit and preview section, users can create,delete and update notes',
   },
   {
     className: 'work tic_tac_toe',
@@ -54,15 +72,15 @@ export const cards = [
     tools: ['Javascript', 'CSS', 'HTML'],
     description: 'A fun tic-tac-toe web apllication with a good UI',
   },
-  {
-    className: 'work guessing_game',
-    link: 'https://guess-it.vercel.app/',
-    title: 'guessing game',
-    img: icons.github,
-    links: 'https://github.com/Chifez/guess-it',
-    animate: 'fade-up-right',
-    tools: ['Javascript', 'CSS', 'HTML'],
-    description:
-      'A simple guessing game where users are given 20 tries to guess a secret number',
-  },
+  // {
+  //   className: 'work guessing_game',
+  //   link: 'https://guess-it.vercel.app/',
+  //   title: 'guessing game',
+  //   img: icons.github,
+  //   links: 'https://github.com/Chifez/guess-it',
+  //   animate: 'fade-up-right',
+  //   tools: ['Javascript', 'CSS', 'HTML'],
+  //   description:
+  //     'A simple guessing game where users are given 20 tries to guess a secret number',
+  // },
 ];
